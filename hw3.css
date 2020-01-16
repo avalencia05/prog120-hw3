@@ -6,3 +6,14 @@ h1{
 #grad{
     background-image: linear-gradient(to black, purple,white);
 }
+
+div{
+    width: 110px;
+    height: 110px;
+    background: orchid;
+    transition: width 2s;
+}
+
+div:hover{
+    width: 300px;
+}
